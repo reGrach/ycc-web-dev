@@ -8,8 +8,12 @@ app.get('/', (req, res) => {
     res.redirect('/index.html')
 })
 
-app.post('/login', (req, res) => {
+app.post('/signin', (req, res) => {
     res.send('Вход выполнен!')
+})
+
+app.post('/signup', (req, res) => {
+  res.send('Регистрация завершена!')
 })
 
 app.listen(port, () => {
