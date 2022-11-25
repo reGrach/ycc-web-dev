@@ -8,11 +8,11 @@ app.get('/', (req, res) => {
     res.redirect('/index.html')
 })
 
-app.post('/signin', (req, res) => {
+app.post('/login', (req, res) => {
     res.send('Вход выполнен!')
 })
 
-app.post('/signup', (req, res) => {
+app.post('/registration', (req, res) => {
   res.send('Регистрация завершена!')
 })
 
